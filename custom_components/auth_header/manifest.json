@@ -1,0 +1,16 @@
+{
+  "domain": "access_token",
+  "name": "HTTP Header Authentication",
+  "documentation": "https://github.com/sibest19/hass-jwt-access-token",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [
+    "auth"
+  ],
+  "codeowners": [
+    "@sibest19"
+  ],
+  "version": "1.0"
+}

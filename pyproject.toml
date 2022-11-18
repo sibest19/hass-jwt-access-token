@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+
+[tool.poetry]
+name = "hass-auth-header"
+version = "0.1.0"
+description = ""
+authors = ["Jens Langhammer <jens.langhammer@beryju.org>"]
+license = "GPL"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyjwt = "2.5.0"
+
+[tool.poetry.dev-dependencies]
+homeassistant = "^2022.11.3"
+pylint = "^2.15.5"
+black = "^22.10.0"
+isort = "^5.10.1"
